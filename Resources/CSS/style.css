@@ -1,0 +1,128 @@
+/* Universal Styles */
+html, body {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Main Navigation */
+nav {
+    font-size: 1.1rem;
+    font-weight: bold;   
+} 
+
+.container-fluid ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.container-fluid ul li a {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-default .navbar-nav .active a:hover {
+    color: #399bd1;
+    background-color: #e7e7e7;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(jumbotron.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    padding-top: 11.85rem;
+    font-family: 'Monoton', sans-serif;
+    font-size: 7.1rem;
+    color: #fff;
+}
+
+.container-fluid p {
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+    width: 51.3rem;
+}
+
+/* Button */
+
+.btn {
+    margin-bottom: 11.85rem;
+    margin-top: 2.8rem;
+    width: 11.4rem;
+    background-color: #399bd1;
+    color: #fff;
+    padding: 1.3rem;
+    font-size: 1.4rem;
+}
+
+.btn:hover {
+    background-color: #60AFDA;
+    color: #fff;
+    transition: background-color 0.2s;
+}
+
+/* Featured Project */
+.featured-project h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #399bd1;
+}
+
+.featured-project h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.featured-project .product-list {
+    color: #399bd1;
+}
+
+.featured-project img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.featured-project ul li {
+    line-height: 1.4;
+}
+
+/* Projects */
+.projects {
+    margin-bottom: 5.85rem;
+}
+
+.projects h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #399bd1;
+}
+
+.projects img {
+    width: 100%;
+}
+
+.projects h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Learn More */
+.learn-more {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 5.2rem 0;
+}
+
+.learn-more strong {
+    font-size: 2.5rem;  
+}
+
+.learn-more p {
+    width:  42rem;
+    padding-top: 1.4rem;
+} 
